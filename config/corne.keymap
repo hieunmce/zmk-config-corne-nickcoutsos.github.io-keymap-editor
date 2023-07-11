@@ -53,29 +53,18 @@
   &kp TAB  &kp Q  &kp W  &kp E         &kp R      &kp T        &kp Y          &kp U      &kp I    &kp O     &kp P        &kp ESCAPE
 &kp LCTRL  &kp A  &kp S  &kp D         &kp F      &kp G        &kp H          &kp J      &kp K    &kp L  &kp SEMI           &kp SQT
 &kp LSHFT  &kp Z  &kp X  &kp C         &kp V      &kp B        &kp N          &kp M  &kp COMMA  &kp DOT  &kp FSLH  &kp LEFT_BRACKET
-                         &mo 1  &kp LEFT_ALT  &kp SPACE    &kp ENTER  &kp BACKSPACE      &mo 2
+                         &mo 1  &kp LEFT_ALT  &kp SPACE    &kp ENTER  &kp BACKSPACE      &mo 1
       >;
 
       label = "Base";
     };
 
-    Raise {
-      bindings = <
-&trans            &kp N1            &kp N2            &kp N3            &kp N4            &kp N5              &kp N6            &kp N7            &kp N8            &kp N9            &kp N0    &trans
-&trans    &kp LEFT_ARROW    &kp DOWN_ARROW      &kp UP_ARROW   &kp RIGHT_ARROW            &trans      &kp LEFT_ARROW    &kp DOWN_ARROW      &kp UP_ARROW   &kp RIGHT_ARROW            &trans    &trans
-&trans  &kp LG(NUMBER_1)  &kp LG(NUMBER_2)  &kp LG(NUMBER_3)  &kp LG(NUMBER_4)  &kp LG(NUMBER_5)    &kp LG(NUMBER_6)  &kp LG(NUMBER_7)  &kp LG(NUMBER_8)  &kp LG(NUMBER_9)  &kp LG(NUMBER_0)  &kp LWIN
-                                                      &trans            &trans            &trans              &trans            &trans             &mo 3
-      >;
-
-      label = "Raise";
-    };
-
     Lower {
       bindings = <
-&trans     &kp NUMBER_1       &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5    &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0     &trans
-&trans           &trans             &trans        &trans        &trans        &trans       &kp MINUS     &kp EQUAL      &kp LBKT      &kp RBKT      &kp BSLH  &kp GRAVE
-&trans  &kp C_VOLUME_UP  &kp C_VOLUME_DOWN        &trans        &trans        &trans       &kp UNDER      &kp PLUS      &kp LBRC      &kp RBRC      &kp PIPE  &kp TILDE
-                                                   &mo 3        &trans        &trans          &trans        &trans        &trans
+&trans     &kp NUMBER_1       &kp NUMBER_2  &kp NUMBER_3     &kp NUMBER_4  &kp NUMBER_5    &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0        &trans
+&trans   &kp LEFT_ARROW     &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW        &trans       &kp MINUS     &kp EQUAL      &kp LBKT      &kp RBKT      &kp BSLH     &kp GRAVE
+&trans  &kp C_VOLUME_UP  &kp C_VOLUME_DOWN        &trans           &trans        &trans       &kp UNDER      &kp PLUS      &kp LBRC      &kp RBRC      &kp PIPE  &kp LEFT_WIN
+                                                   &mo 2           &trans        &trans          &trans        &trans         &mo 2
       >;
 
       label = "Lower";
