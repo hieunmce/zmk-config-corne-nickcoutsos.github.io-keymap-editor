@@ -61,10 +61,10 @@
 
     Lower {
       bindings = <
-&trans     &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4       &kp NUMBER_5    &kp NUMBER_6  &kp NUMBER_7      &kp NUMBER_8       &kp NUMBER_9  &kp NUMBER_0     &trans
-&trans  &kp C_VOLUME_UP        &trans        &trans        &trans  &kp C_VOLUME_DOWN        &kp LEFT      &kp DOWN            &kp UP          &kp RIGHT      &kp BSLH  &kp GRAVE
-&trans           &trans        &trans        &trans        &trans             &trans       &kp MINUS     &kp EQUAL  &kp LEFT_BRACKET  &kp RIGHT_BRACKET      &kp PIPE     &trans
-                                              &mo 2        &trans             &trans          &trans        &trans             &mo 2
+&trans       &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4     &kp NUMBER_5    &kp NUMBER_6  &kp NUMBER_7      &kp NUMBER_8       &kp NUMBER_9  &kp NUMBER_0     &trans
+&trans  &kp C_VOLUME_DOWN        &trans        &trans        &trans  &kp C_VOLUME_UP        &kp LEFT      &kp DOWN            &kp UP          &kp RIGHT      &kp BSLH  &kp GRAVE
+&trans             &trans        &trans        &trans        &trans           &trans       &kp MINUS     &kp EQUAL  &kp LEFT_BRACKET  &kp RIGHT_BRACKET      &kp PIPE     &trans
+                                                &mo 2        &trans           &trans          &trans        &trans             &mo 2
       >;
 
       label = "Lower";
